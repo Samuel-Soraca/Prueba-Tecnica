@@ -1,0 +1,161 @@
+.fondo {
+    background-image: url(/assets/img/Marcas\ en\ Columnas\ Compactas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contenedor {
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.selector-box h2 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+.selector-container {
+    display: block;
+    padding: 1.5rem;
+    border-radius: 60px 0 60px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+}
+
+.selector-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.425);
+}
+
+#marca {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #00000030;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    color: #000;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+#marca:focus {
+    outline: none;
+    border-color: #00000070;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+    .selector-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .selector-img {
+        margin-bottom: 1rem;
+    }
+
+    .custom-select {
+        width: 100%;
+    }
+}
+
+body.Americanino {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/FonAmeri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.AmericanEagle {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/fonEagle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.Chevignon {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/Tienda\ Chevignon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.Esprit {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/Tienda\ Esprit\ Moda\ Mujer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.Rifle {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://ccviva.com/sites/default/files/2024-06/Fachada_sincelejo_29.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.Americanino .selector-box h2 {
+    color: #ffffff;
+}
+
+body.AmericanEagle .selector-box h2 {
+    color: rgb(255, 232, 181);
+}
+
+body.Chevignon .selector-box h2 {
+    color: rgba(255, 234, 222, 1);
+}
+
+body.Esprit .selector-box h2 {
+    color: #ffffff;
+}
+
+body.Rifle .selector-box h2 {
+    color: #ffffff;
+}
+option[value="Select"] {
+    color: rgba(255, 255, 255, 0.979);
+    background-color: #c5c5c5;
+}
+
+option[value="Americanino"] {
+    color: rgba(255, 255, 255, 0.979);
+    background-color: #001261;
+}
+
+option[value="AmericanEagle"] {
+    color: rgb(119, 77, 0);
+    background-color: rgb(255, 236, 194);
+}
+
+option[value="Chevignon"] {
+    color: rgba(255, 234, 222, 1);
+    background-color: #4d220e;
+}
+
+option[value="Esprit"] {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+option[value="Rifle"] {
+    color: red;
+    background-color: #ffffff;
+}
+
+.imagenes {
+    object-fit: cover;
+    height: 100%
+}
+
+@media (max-width: 768px) {
+    .imagenes {
+        height: 250px;
+    }
+}

@@ -1,8 +1,36 @@
 .fondo {
-    background-image: url(/assets/img/Marcas\ en\ Columnas\ Compactas.png);
-    background-repeat: no-repeat;
+    margin: 0;
+    background-image: url("/front/assets/img/Marcas\ en\ Columnas\ Compactas.png");
     background-size: cover;
-    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.formus.azul{
+    background-color: rgba(0, 23, 85, 0.959);
+    color: #ffffff;
+}
+
+.formus.piel{
+    background-color: rgba(255, 136, 0, 0.144);
+    color: #3a2300;
+}
+
+.formus.cafe{
+    background-color: rgba(68, 34, 20, 0.959);
+    color: #e4d9d5;
+}
+
+.formus.blanco{
+    background-color: rgba(214, 214, 214, 0.144);
+    color: #000000;
+}
+
+.formus.naranja{
+    background-color: rgba(255, 147, 7, 0.842);
+    color: #000000;
 }
 
 .contenedor {
@@ -66,35 +94,35 @@
 }
 
 body.Americanino {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/FonAmeri.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/front/assets/img/FonAmeri.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 body.AmericanEagle {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/fonEagle.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/front/assets/img/fonEagle.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 body.Chevignon {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/Tienda\ Chevignon.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/front/assets/img/Tienda\ Chevignon.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 body.Esprit {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/Tienda\ Esprit\ Moda\ Mujer.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/frontassets/img/Tienda\ Esprit\ Moda\ Mujer.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 body.Rifle {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://ccviva.com/sites/default/files/2024-06/Fachada_sincelejo_29.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/front/assets/img/forifle.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -117,8 +145,9 @@ body.Esprit .selector-box h2 {
 }
 
 body.Rifle .selector-box h2 {
-    color: #ffffff;
+    color: #ffa837ff;
 }
+
 option[value="Select"] {
     color: rgba(255, 255, 255, 0.979);
     background-color: #c5c5c5;
@@ -145,8 +174,8 @@ option[value="Esprit"] {
 }
 
 option[value="Rifle"] {
-    color: red;
-    background-color: #ffffff;
+    color:#ffa837ff;
+    background-color: #000000;
 }
 
 .imagenes {

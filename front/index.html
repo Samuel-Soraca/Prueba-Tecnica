@@ -38,24 +38,24 @@
                             <h3 class="mb-4 fw-bold text-center text-md-start">
                                 ACTIVA TU ADN AMERICANINO <span class="text-primary">#DENIMCREW</span>
                             </h3>
-                            <select class="form-select mb-3">
+                            <select class="form-select mb-3" id="tipoIdentificacion">
                                 <option value="">Tipo de identificación</option>
                                 <option value="cc">Cédula de ciudadanía</option>
                                 <option value="ce">Cédula de extranjería</option>
                                 <option value="ti">Tarjeta de identidad</option>
                                 <option value="pp">Pasaporte</option>
                             </select>
-                            <input type="text" class="form-control mb-3" placeholder="Número de identificación">
+                            <input type="text" class="form-control mb-3" placeholder="numeroIdentificacion" id="numeroIdentificacion">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Nombres">
+                                    <input type="text" class="form-control" placeholder="Nombres" id="nombres">
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                    <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
                                 </div>
                             </div>
-                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento">
-                            <input type="text" class="form-control mb-3" placeholder="Dirección">
+                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento" id="fechaNacimiento">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" id="direccion">
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <select class="form-select" id="pais-Americanino">
@@ -82,21 +82,13 @@
                             <select class="form-select mb-3" disabled>
                                 <option>Americanino</option>
                             </select>
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Correo electrónico">
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="tel" class="form-control" placeholder="Celular">
-                                </div>
-                            </div>
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="terminos1">
                                 <label for="terminos1" class="form-check-label small">
                                     He leído y acepto los términos y condiciones.
                                 </label>
                             </div>
-                            <button class="btn btn-primary w-100 mb-3">Suscribirse</button>
+                            <button type="submit" class="btn btn-primary w-100 mb-3" onclick="enviarFormulario()">Suscribirse</button>
                         </div>
                     </div>
                 </div>
@@ -116,24 +108,24 @@
                             <h3 class="mb-4 fw-bold text-center text-md-start">
                                 ÚNETE AL VUELO AMERICAN EAGLE <span class="text-primary">#FLYWITHAE</span>
                             </h3>
-                            <select class="form-select mb-3">
+                            <select class="form-select mb-3" id="tipoIdentificacion">
                                 <option value="">Tipo de identificación</option>
                                 <option value="cc">Cédula de ciudadanía</option>
                                 <option value="ce">Cédula de extranjería</option>
                                 <option value="ti">Tarjeta de identidad</option>
                                 <option value="pp">Pasaporte</option>
                             </select>
-                            <input type="text" class="form-control mb-3" placeholder="Número de identificación">
+                            <input type="text" class="form-control mb-3" placeholder="Número de identificación" id="numeroIdentificacion">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Nombres">
+                                    <input type="text" class="form-control" placeholder="Nombres" id="nombres">
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                    <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
                                 </div>
                             </div>
-                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento">
-                            <input type="text" class="form-control mb-3" placeholder="Dirección">
+                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento" id="fechaNacimiento">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" id="direccion">
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <select class="form-select" id="pais-Eagle">
@@ -157,21 +149,13 @@
                             <select class="form-select mb-3" disabled>
                                 <option>American Eagle</option>
                             </select>
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Correo electrónico">
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="tel" class="form-control" placeholder="Celular">
-                                </div>
-                            </div>
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="terminos2">
                                 <label for="terminos2" class="form-check-label small">
                                     He leído y acepto los términos y condiciones.
                                 </label>
                             </div>
-                            <button class="btn btn-primary w-100 mb-3">Suscribirse</button>
+                            <button class="btn btn-primary w-100 mb-3" onclick="enviarFormulario()">Suscribirse</button>
                         </div>
                     </div>
                 </div>
@@ -191,28 +175,24 @@
                             <h3 class="mb-4 fw-bold text-center text-md-start">
                                 EL PODER DE SER TÚ <span class="text-primary">#CHEVIFAMILY</span>
                             </h3>
-
-                            <select class="form-select mb-3">
+                            <select class="form-select mb-3" id="tipoIdentificacion">
                                 <option value="">Tipo de identificación</option>
                                 <option value="cc">Cédula de ciudadanía</option>
                                 <option value="ce">Cédula de extranjería</option>
                                 <option value="ti">Tarjeta de identidad</option>
                                 <option value="pp">Pasaporte</option>
                             </select>
-                            <input type="text" class="form-control mb-3" placeholder="Número de identificación">
-
+                            <input type="text" class="form-control mb-3" placeholder="Número de identificación" id="numeroIdentificacion">
                             <div class="row g-2 mb-3">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Nombres">
+                                    <input type="text" class="form-control" placeholder="Nombres" id="nombres">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                    <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
                                 </div>
                             </div>
-
-                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento">
-                            <input type="text" class="form-control mb-3" placeholder="Dirección">
-
+                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento" id="fechaNacimiento">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" id="dirceccion">
                             <div class="row g-2 mb-3">
                                 <div class="col-md-4">
                                     <select class="form-select" id="pais-Chevignon">
@@ -238,27 +218,16 @@
                                     </select>
                                 </div>
                             </div>
-
                             <select class="form-select mb-3" disabled>
                                 <option>Chevignon</option>
                             </select>
-
-                            <div class="row g-2 mb-3">
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" placeholder="Correo electrónico">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="tel" class="form-control" placeholder="Celular">
-                                </div>
-                            </div>
-
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="terminos3">
                                 <label for="terminos3" class="form-check-label small">
                                     He leído y acepto los términos y condiciones.
                                 </label>
                             </div>
-                            <button class="btn btn-primary w-100 mb-3">Suscribirse</button>
+                            <button class="btn btn-primary w-100 mb-3" onclick="enviarFormulario()">Suscribirse</button>
                         </div>
                     </div>
                 </div>
@@ -278,24 +247,24 @@
                             <h3 class="mb-4 fw-bold text-center text-md-start">
                                 SÉ PARTE DE LA ENERGÍA ESPRIT <span class="text-primary">#TEAMESPRIT</span>
                             </h3>
-                            <select class="form-select mb-3">
+                            <select class="form-select mb-3" id="tipoIdentificacion">
                                 <option value="">Tipo de identificación</option>
                                 <option value="cc">Cédula de ciudadanía</option>
                                 <option value="ce">Cédula de extranjería</option>
                                 <option value="ti">Tarjeta de identidad</option>
                                 <option value="pp">Pasaporte</option>
                             </select>
-                            <input type="text" class="form-control mb-3" placeholder="Número de identificación">
+                            <input type="text" class="form-control mb-3" placeholder="Número de identificación" id="numeroIdentificacion">
                             <div class="row g-2 mb-3">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Nombres">
+                                    <input type="text" class="form-control" placeholder="Nombres" id="nombres">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                    <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
                                 </div>
                             </div>
-                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento">
-                            <input type="text" class="form-control mb-3" placeholder="Dirección">
+                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento" id="fechaNacimiento">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" id="direccion">
                             <div class="row g-2 mb-3">
                                 <div class="col-md-4">
                                     <select class="form-select" id="pais-Esprit">
@@ -325,21 +294,13 @@
                             <select class="form-select mb-3" disabled>
                                 <option>Esprit</option>
                             </select>
-                            <div class="row g-2 mb-3">
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control" placeholder="Correo electrónico">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="tel" class="form-control" placeholder="Celular">
-                                </div>
-                            </div>
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="terminos4">
                                 <label for="terminos4" class="form-check-label small">
                                     He leído y acepto los términos y condiciones.
                                 </label>
                             </div>
-                            <button class="btn btn-primary w-100 mb-3">Suscribirse</button>
+                            <button class="btn btn-primary w-100 mb-3" onclick="enviarFormulario()">Suscribirse</button>
                             <p class="small text-muted">
                         </div>
                     </div>
@@ -360,24 +321,24 @@
                             <h3 class="mb-4 fw-bold text-center text-md-start">
                                 SOY RIFLE, SOY AUTÉNTICO <span class="text-primary">#WEARERIFLE</span>
                             </h3>
-                            <select class="form-select mb-3">
+                            <select class="form-select mb-3" id="tipoIdentificacion">
                                 <option value="">Tipo de identificación</option>
                                 <option value="cc">Cédula de ciudadanía</option>
                                 <option value="ce">Cédula de extranjería</option>
                                 <option value="ti">Tarjeta de identidad</option>
                                 <option value="pp">Pasaporte</option>
                             </select>
-                            <input type="text" class="form-control mb-3" placeholder="Número de identificación">
+                            <input type="text" class="form-control mb-3" placeholder="Número de identificación" id="numeroIdentificacion">
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Nombres">
+                                    <input type="text" class="form-control" placeholder="Nombres" id="nombres">
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                    <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
                                 </div>
                             </div>
-                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento">
-                            <input type="text" class="form-control mb-3" placeholder="Dirección">
+                            <input type="date" class="form-control mb-3" placeholder="Fecha de nacimiento" id="fechaNacimiento">
+                            <input type="text" class="form-control mb-3" placeholder="Dirección" id="direccion">
                             <div class="row">
                                 <div class="col-md-4 mb-3">
                                     <select class="form-select" id="pais-Rifle">
@@ -399,21 +360,13 @@
                             <select class="form-select mb-3" disabled>
                                 <option>Rifle</option>
                             </select>
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" placeholder="Correo electrónico">
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="tel" class="form-control" placeholder="Celular">
-                                </div>
-                            </div>
                             <div class="form-check mb-3">
                                 <input type="checkbox" class="form-check-input" id="terminos5">
                                 <label for="terminos5" class="form-check-label small">
                                     He leído y acepto los términos y condiciones.
                                 </label>
                             </div>
-                            <button class="btn btn-primary w-100 mb-3">Suscribirse</button>
+                            <button class="btn btn-primary w-100 mb-3" onclick="enviarFormulario()">Suscribirse</button>
                         </div>
                     </div>
                 </div>

@@ -115,7 +115,7 @@ body.Chevignon {
 }
 
 body.Esprit {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/frontassets/img/Tienda\ Esprit\ Moda\ Mujer.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/front/assets/img/Tienda\ Esprit\ Moda\ Mujer.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

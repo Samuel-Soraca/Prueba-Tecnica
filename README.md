@@ -17,7 +17,7 @@ Las marcas incluidas actualmente son:
 📂 Estructura del proyecto
 
 /front
-------ssets/
+------assets/
 -----------css/
 style.css
 

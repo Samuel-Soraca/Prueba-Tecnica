@@ -19,12 +19,12 @@ Las marcas incluidas actualmente son:
 /front
 ------ssets/
 -----------css/
----------------style.css
+style.css
 
 -----------img/  
 
 -----------js/
----------------main.js    
+main.js    
 -----------index.html    
 
 

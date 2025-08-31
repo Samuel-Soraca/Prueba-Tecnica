@@ -20,7 +20,9 @@ Las marcas incluidas actualmente son:
 ------ssets/
 -----------css/
 ---------------style.css
------------img/       
+
+-----------img/  
+
 -----------js/
 ---------------main.js    
 -----------index.html    
@@ -28,6 +30,7 @@ Las marcas incluidas actualmente son:
 
 /backend (Spring Boot)
 ----src/main/java/com/formulario
+
 -------controller/  
 -------model/     
 -------service/     

@@ -16,22 +16,21 @@ Las marcas incluidas actualmente son:
 
 📂 Estructura del proyecto
 /front
-│── assets/
-│   ├── css/
-│   │   └── style.css       # Estilos personalizados
-│   ├── img/                # Logos e imágenes de marcas
-│   └── js/
-│       └── main.js         # Lógica para cambiar marca y cargar ubicaciones
-│
-└── index.html              # Página principal con formularios dinámicos
+------ssets/
+-----------css/
+--------------style.css       # Estilos personalizados
+-----------img/                # Logos e imágenes de marcas
+-----------js/
+--------------main.js         # Lógica para cambiar marca y cargar ubicaciones
+-----------index.html              # Página principal con formularios dinámicos
 
 /backend (Spring Boot)
-│── src/main/java/com/formulario
-│   ├── controller/         # Controladores REST
-│   ├── model/              # Modelos de datos
-│   └── service/            # Lógica de negocio y servicios
-│
-└── resources/              # Configuración y properties
+----src/main/java/com/formulario
+-------controller/         # Controladores REST
+-------model/              # Modelos de datos
+-------service/            # Lógica de negocio y servicios
+-------resources/              # Configuración y properties
+
 
 ⚙️ Tecnologías usadas
 Frontend

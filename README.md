@@ -18,26 +18,20 @@ Las marcas incluidas actualmente son:
 
 /front
 ------ssets/
-
 -----------css/
-
---------------style.css
-
+---------------style.css
 -----------img/       
-
 -----------js/
-
---------------main.js    
-
+---------------main.js    
 -----------index.html    
 
 
 /backend (Spring Boot)
 ----src/main/java/com/formulario
--------controller/         # Controladores REST
--------model/              # Modelos de datos
--------service/            # Lógica de negocio y servicios
--------resources/              # Configuración y properties
+-------controller/  
+-------model/     
+-------service/     
+-------resources/    
 
 
 ⚙️ Tecnologías usadas

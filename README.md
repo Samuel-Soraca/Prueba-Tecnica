@@ -15,15 +15,22 @@ Las marcas incluidas actualmente son:
 👕 Rifle
 
 📂 Estructura del proyecto
+
 /front
 ------ssets/
 
 -----------css/
---------------style.css       # Estilos personalizados
------------img/                # Logos e imágenes de marcas
+
+--------------style.css
+
+-----------img/       
+
 -----------js/
---------------main.js         # Lógica para cambiar marca y cargar ubicaciones
------------index.html              # Página principal con formularios dinámicos
+
+--------------main.js    
+
+-----------index.html    
+
 
 /backend (Spring Boot)
 ----src/main/java/com/formulario
